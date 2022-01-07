@@ -1,6 +1,6 @@
 module.exports = {
   title: "柠檬果肉",
-  description: 'A simple and beautiful vuepress blog theme .',
+  description: '',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
