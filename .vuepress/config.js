@@ -17,10 +17,10 @@ module.exports = {
           { text: 'vuepress-reco', link: '/docs/theme-reco/' }
         ]
       },
-      { text: 'Contact', 
+      { text: ' 联系', 
         icon: 'reco-message',
         items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
+          { text: 'GitHub', link: 'https://github.com/qiamw/', icon: 'reco-github' }
         ]
       }
     ],
