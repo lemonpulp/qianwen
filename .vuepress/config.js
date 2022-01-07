@@ -1,5 +1,5 @@
 module.exports = {
-  title: "vuepress-theme-reco",
+  title: "柠檬果肉",
   description: 'A simple and beautiful vuepress blog theme .',
   dest: 'public',
   head: [
@@ -67,7 +67,7 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: 'NingMeng',
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号
