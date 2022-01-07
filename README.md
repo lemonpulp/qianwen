@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 柠檬果肉
+tagline: 古之立大事者，不惟有超世之才，亦必有坚韧不拔之志。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
