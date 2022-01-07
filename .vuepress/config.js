@@ -11,10 +11,10 @@ module.exports = {
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
+      { text: '文档', 
         icon: 'reco-message',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+          { text: 'vuepress-reco', link: '/docs/' }
         ]
       },
       { text: ' 联系', 
@@ -24,14 +24,14 @@ module.exports = {
         ]
       }
     ],
-    sidebar: {
-      '/docs/theme-reco/': [
+   /* sidebar: {
+      '/docs/': [
         '',
         'theme',
         'plugin',
         'api'
       ]
-    },  
+    }, */ 
     type: 'blog',
     // 博客设置
     blogConfig: {
