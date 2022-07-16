@@ -123,13 +123,12 @@ module.exports = {
           ],
         },
       ],
-      copyright: `<p>Copyright © ${new Date().getFullYear()} 111峰华 (张旭乾) Built with Docusaurus.</p>
-      <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备14007097号-3</a></p>
+      copyright: `<p>Copyright © ${new Date().getFullYear()} ***** </p>
+      <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备*****</a></p>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
       <img alt="Creative Commons License" style="border-width:0" src="/img/creative-commons-license-icon.png" /></a>
       <br />本站所有内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-Hans" 
-      style="color: hsl(210deg, 100%, 80%)">CC BY-NC 4.0 协议</a>，转载须注明署名和出处，且不可用于商业用途。
-      若与其他同步平台协议冲突，以本网站为准。`,
+      style="color: hsl(210deg, 100%, 80%)">CC BY-NC 4.0 协议</a>`,
     },
     prism: {
       theme: require("prism-react-renderer/themes/github"),
