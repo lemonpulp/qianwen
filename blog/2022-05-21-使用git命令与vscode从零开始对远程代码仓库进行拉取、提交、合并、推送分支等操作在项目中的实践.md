@@ -3,8 +3,8 @@ slug: 使用git命令与vscode从零开始对远程代码仓库进行拉取、�
 title: 使用git命令与vscode从零开始对远程代码仓库进行拉取、提交、合并、推送分支等操作在项目中的实践
 author: 柠檬果肉
 author_title: 前端工程师 / B站UP主
-author_url: https://github.com/JACK-ZHANG-coming
-author_image_url: https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4
+author_url: https://github.com/qiamw
+author_image_url: https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4
 description: git相关操作。
 tags: [git,vscode]
 ---

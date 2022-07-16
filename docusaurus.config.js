@@ -7,11 +7,11 @@ module.exports = {
   // tagline:
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
-  url: "https://zhangqiang.vercel.app",
+  url: "https://qianwen.vercel.app",
   baseUrl: "/",
-  favicon: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4", // 网站图标
-  organizationName: "zhangqiang", // Usually your GitHub org/user name.
-  projectName: "zhangqiang.vercel.app", // Usually your repo name.
+  favicon: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4", // 网站图标
+  organizationName: "ningmengguorou", // Usually your GitHub org/user name.
+  projectName: "qianwen.vercel.app", // Usually your repo name.
   themeConfig: {
     // announcementBar: {
     //   id: "feature_release", // Any value that will identify this message.
@@ -29,8 +29,8 @@ module.exports = {
       title: "柠檬果肉",
       logo: {
         alt: "柠檬果肉",
-        src: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
-        srcDark: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
+        src: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4",
+        srcDark: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4",
       },
       items: [{
           type: "localeDropdown",
@@ -58,11 +58,6 @@ module.exports = {
               to: "https://photo.zhangqiang.hk.cn/",
             },
           ],
-        },
-        {
-          href: "https://github.com/JACK-ZHANG-coming/my-now-blog",
-          label: "本站源码",
-          position: "right",
         },
       ],
     },
@@ -98,29 +93,17 @@ module.exports = {
           title: "社交媒体",
           items: [{
               label: "GitHub",
-              href: "https://github.com/JACK-ZHANG-coming",
+              href: "https://github.com/qiamw",
             },
             {
               label: "Bilibili 哔哩哔哩",
-              href: "https://space.bilibili.com/299974236",
+              href: "https://space.bilibili.com/318627253",
             },
           ],
         },
         {
           title: "友情链接",
-          items: [{
-              label: "yuqing521のblog",
-              to: "https://yuqing521.github.io/",
-            },
-            {
-              label: "lookroot的个人空间",
-              to: "https://www.lookroot.cn/",
-            },
-            {
-              label: "峰华前端工程师",
-              to: "https://zxuqian.cn",
-            },
-          ],
+          items: [],
         },
       ],
       copyright: `<p>Copyright © ${new Date().getFullYear()} ***** </p>
@@ -151,7 +134,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/JACK-ZHANG-coming/my-now-blog/blob/main",
+          editUrl: "https://github.com/qiamw/my-now-blog/blob/main",
           remarkPlugins: [math],
           rehypePlugins: [katex],
           showLastUpdateTime: true,

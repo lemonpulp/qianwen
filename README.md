@@ -9,7 +9,7 @@
 首先克隆仓库代码：
 
 ```bash
-$ git clone https://github.com/JACK-ZHANG-coming/my-now-blog
+$ git clone https://github.com/qiamw/my-now-blog
 
 ```
 

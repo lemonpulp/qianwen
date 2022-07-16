@@ -3,8 +3,8 @@ slug: react生命周期总结（旧、新生命周期及Hook）
 title: react生命周期总结（旧、新生命周期及Hook）
 author: 柠檬果肉
 author_title: 前端工程师 / B站UP主
-author_url: https://github.com/JACK-ZHANG-coming
-author_image_url: https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4
+author_url: https://github.com/qiamw
+author_image_url: https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4
 description: react生命周期总结（旧、新生命周期及Hook）。
 tags: [前端, react]
 # activityId: 相关动态 ID
@@ -20,7 +20,7 @@ tags: [前端, react]
 
 什么是react生命周期呢？当我们使用各种框架开发程序时，当这个框架启动、程序刚运行时、各个页面之间的交互、数据渲染到页面上面、程序运行结束，应当会有个闭环的操作，而在这个环的起点和终点之间的各个节点，框架给给定一些特定函数供我们自行调用，方便我们执行一些操作，这便是生命周期。react也是如此。
 
-> 附带样例源码地址：https://github.com/JACK-ZHANG-coming/react-demo-project/blob/master/src/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9Fdemo/index.jsx
+> 附带样例源码地址：https://github.com/qiamw/react-demo-project/blob/master/src/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9Fdemo/index.jsx
 
 ## 2 react有哪些生命周期函数与作用
 
