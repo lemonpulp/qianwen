@@ -3,7 +3,7 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 
 module.exports = {
-  title: "潜心专研的小张同学", // 网站标签名称
+  title: "柠檬果肉", // 网站标签名称
   // tagline:
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
@@ -26,9 +26,9 @@ module.exports = {
     //   }
     // },
     navbar: {
-      title: "潜心专研的小张同学",
+      title: "柠檬果肉",
       logo: {
-        alt: "潜心专研的小张同学",
+        alt: "柠檬果肉",
         src: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
         srcDark: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
       },

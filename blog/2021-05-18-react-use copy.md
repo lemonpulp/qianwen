@@ -4,7 +4,7 @@ slug: react-use
 
 title: vscode+react环境部署，运行第一个react框架
 
-author: 潜心专研的小张同学
+author: 柠檬果肉
 
 author_title: 前端工程师 / B站UP主
 
