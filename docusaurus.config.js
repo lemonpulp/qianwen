@@ -54,8 +54,8 @@ module.exports = {
               to: "https://jack-zhang-coming.github.io/rap-to-ts/",
             },
             {
-              label: "小张同学的照片墙",
-              to: "https://photo.zhangqiang.hk.cn/",
+              label: "照片墙",
+              to: "",
             },
           ],
         },
@@ -152,8 +152,8 @@ module.exports = {
           rehypePlugins: [katex],
           feedOptions: {
             type: "all",
-            title: "峰华前端工程师1111",
-            copyright: `Copyright © ${new Date().getFullYear()} 2222峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+            title: "柠檬果肉",
+            copyright: `Copyright © ${new Date().getFullYear()}柠檬果肉<p><a href="http://beian.miit.gov.cn/">冀ICP备*****</a></p>`,
           },
         },
         theme: {
@@ -182,8 +182,8 @@ module.exports = {
         path: "./lifestyle",
         feedOptions: {
           type: "all",
-          title: "峰华前端工程师2222",
-          copyright: `Copyright © ${new Date().getFullYear()} 3333峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+          title: "柠檬果肉",
+          copyright: `Copyright © ${new Date().getFullYear()} 柠檬果肉<p><a href="http://beian.miit.gov.cn/">冀ICP备*****</a></p>`,
         },
       },
     ],
@@ -220,7 +220,7 @@ module.exports = {
     // },
   ],
   i18n: {
-    defaultLocale: "zh-CN",
+  /*  defaultLocale: "zh-CN",
     locales: ["zh-CN"],
     // locales: ["zh-CN", "en"],
     localeConfigs: {
@@ -230,6 +230,6 @@ module.exports = {
       en: {
         label: "English",
       },
-    },
+    },*/
   },
 };
