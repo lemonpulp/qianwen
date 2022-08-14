@@ -10,8 +10,8 @@ module.exports = {
   url: "https://zhangqiang.vercel.app",
   baseUrl: "/",
   favicon: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4", // 网站图标
-  organizationName: "zhangqiang", // Usually your GitHub org/user name.
-  projectName: "zhangqiang.vercel.app", // Usually your repo name.
+  organizationName: "qianwen", // Usually your GitHub org/user name.
+  projectName: "qianwen.vercel.app", // Usually your repo name.
   themeConfig: {
     // announcementBar: {
     //   id: "feature_release", // Any value that will identify this message.
@@ -95,28 +95,29 @@ module.exports = {
           },
             {
               label: "Bilibili 哔哩哔哩",
-              href: "https://space.bilibili.com/299974236",
+              href: "https://space.bilibili.com/318627253",
             },
           ],
         },
         {
           title: "友情链接",
-          items: [{
+          items: [
+         /*     {
             label: "yuqing521のblog",
             to: "https://yuqing521.github.io/",
-          },
-            {
+          },*/
+         /*   {
               label: "lookroot的个人空间",
               to: "https://www.lookroot.cn/",
             },
             {
               label: "峰华前端工程师",
               to: "https://zxuqian.cn",
-            },
+            },*/
           ],
         },
       ],
-      copyright: `<p>Copyright © ${new Date().getFullYear()} 111峰华 (张旭乾) Built with Docusaurus.</p>
+      copyright: `<p>Copyright © ${new Date().getFullYear()} 柠檬果肉 Built with Docusaurus.</p>
       <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备14007097号-3</a></p>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
       <img alt="Creative Commons License" style="border-width:0" src="/img/creative-commons-license-icon.png" /></a>
@@ -164,7 +165,7 @@ module.exports = {
           feedOptions: {
             type: "all",
             title: "柠檬果肉",
-            copyright: `Copyright © ${new Date().getFullYear()} 2222峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+            copyright: `Copyright © ${new Date().getFullYear()} 柠檬果肉 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
           },
         },
         theme: {
