@@ -179,7 +179,7 @@ function BlogListPage(props) {
             {currentLocale === "zh-CN" && (
               <animated.p style={animatedTexts[3]}>
                 <Translate id="homepage.qqgroup1" description="qq group1">
-                  QQ 1 群：706947563
+                  QQ 1 群：  
                 </Translate>
               </animated.p>
             )}
