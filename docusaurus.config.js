@@ -3,7 +3,7 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 
 module.exports = {
-  title: "潜心专研的小张同学", // 网站标签名称
+  title: "柠檬果肉", // 网站标签名称
   // tagline:
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
@@ -26,11 +26,11 @@ module.exports = {
     //   }
     // },
     navbar: {
-      title: "潜心专研的小张同学",
+      title: "柠檬果肉",
       logo: {
-        alt: "潜心专研的小张同学",
-        src: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
-        srcDark: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
+        alt: "柠檬果肉",
+        src: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4",
+        srcDark: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4",
       },
       items: [{
         type: "localeDropdown",
@@ -53,17 +53,10 @@ module.exports = {
             label: "简易的rap参数转ts格式工具",
             to: "https://jack-zhang-coming.github.io/rap-to-ts/",
           },
-            {
-              label: "小张同学的照片墙",
-              to: "https://photo.zhangqiang.hk.cn/",
-            },
+
           ],
         },
-        {
-          href: "https://github.com/JACK-ZHANG-coming/my-now-blog",
-          label: "本站源码",
-          position: "right",
-        },
+
       ],
     },
     algolia: {
@@ -98,7 +91,7 @@ module.exports = {
           title: "社交媒体",
           items: [{
             label: "GitHub",
-            href: "https://github.com/JACK-ZHANG-coming",
+            href: "https://github.com/qiamw/qianwen",
           },
             {
               label: "Bilibili 哔哩哔哩",
@@ -170,7 +163,7 @@ module.exports = {
           rehypePlugins: [katex],
           feedOptions: {
             type: "all",
-            title: "峰华前端工程师1111",
+            title: "柠檬果肉",
             copyright: `Copyright © ${new Date().getFullYear()} 2222峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
           },
         },
@@ -200,8 +193,8 @@ module.exports = {
         path: "./lifestyle",
         feedOptions: {
           type: "all",
-          title: "峰华前端工程师2222",
-          copyright: `Copyright © ${new Date().getFullYear()} 3333峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+          title: "柠檬果肉",
+          copyright: `Copyright © ${new Date().getFullYear()}  Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
         },
       },
     ],
