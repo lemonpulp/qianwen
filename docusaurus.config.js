@@ -220,7 +220,7 @@ module.exports = {
     // },
   ],
   i18n: {
-  /*  defaultLocale: "zh-CN",
+    defaultLocale: "zh-CN",
     locales: ["zh-CN"],
     // locales: ["zh-CN", "en"],
     localeConfigs: {
@@ -230,6 +230,6 @@ module.exports = {
       en: {
         label: "English",
       },
-    },*/
+    },
   },
 };
