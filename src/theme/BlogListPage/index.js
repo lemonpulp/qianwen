@@ -359,10 +359,10 @@ function SocialLinks({ animatedProps, ...props }) {
       <a href="https://github.com/qiamw/qianwen">
         <FontAwesomeIcon icon={faGithub} size="lg" />
       </a>
-      <a href="https://blog.csdn.net/weixin_43207103?spm=1000.2115.3001.5343">
+      <a href="https://blog.csdn.net/qq_32445853?type=blog">
         <CSDNIcon />
       </a>
-      <a href="https://juejin.cn/user/1451011082041517/posts">
+      <a href="https://juejin.cn/user/1517805122892686">
         <JueJinIcon />
       </a>
       <div className="dropdown dropdown--hoverable">
