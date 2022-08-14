@@ -36,11 +36,11 @@ module.exports = {
           type: "localeDropdown",
           position: "left",
         },
-        // {
-        //   to: "/",
-        //   label: "首页",
-        //   position: "right",
-        // },
+         {
+           to: "/",
+           label: "首页",
+           position: "right",
+         },
         {
           to: "docs/all-intro",
           label: "专属学习笔记",
@@ -52,10 +52,6 @@ module.exports = {
           items: [{
               label: "简易的rap参数转ts格式工具",
               to: "https://jack-zhang-coming.github.io/rap-to-ts/",
-            },
-            {
-              label: "照片墙",
-              to: "",
             },
           ],
         },
