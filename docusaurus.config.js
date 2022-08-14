@@ -3,15 +3,15 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 
 module.exports = {
-  title: "柠檬果肉", // 网站标签名称
+  title: "潜心专研的小张同学", // 网站标签名称
   // tagline:
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
-  url: "https://qianwen.vercel.app",
+  url: "https://zhangqiang.vercel.app",
   baseUrl: "/",
-  favicon: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4", // 网站图标
-  organizationName: "ningmengguorou", // Usually your GitHub org/user name.
-  projectName: "qianwen.vercel.app", // Usually your repo name.
+  favicon: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4", // 网站图标
+  organizationName: "zhangqiang", // Usually your GitHub org/user name.
+  projectName: "zhangqiang.vercel.app", // Usually your repo name.
   themeConfig: {
     // announcementBar: {
     //   id: "feature_release", // Any value that will identify this message.
@@ -26,21 +26,21 @@ module.exports = {
     //   }
     // },
     navbar: {
-      title: "柠檬果肉",
+      title: "潜心专研的小张同学",
       logo: {
-        alt: "柠檬果肉",
-        src: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4",
-        srcDark: "https://avatars.githubusercontent.com/u/43574409?s=400&u=f5973781cf424d7cf56d7ff289f132f11ff51718&v=4",
+        alt: "潜心专研的小张同学",
+        src: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
+        srcDark: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
       },
       items: [{
-          type: "localeDropdown",
-          position: "left",
-        },
-         {
-           to: "/",
-           label: "首页",
-           position: "right",
-         },
+        type: "localeDropdown",
+        position: "left",
+      },
+        // {
+        //   to: "/",
+        //   label: "首页",
+        //   position: "right",
+        // },
         {
           to: "docs/all-intro",
           label: "专属学习笔记",
@@ -50,10 +50,19 @@ module.exports = {
           label: "小工具",
           position: "right",
           items: [{
-              label: "简易的rap参数转ts格式工具",
-              to: "https://jack-zhang-coming.github.io/rap-to-ts/",
+            label: "简易的rap参数转ts格式工具",
+            to: "https://jack-zhang-coming.github.io/rap-to-ts/",
+          },
+            {
+              label: "小张同学的照片墙",
+              to: "https://photo.zhangqiang.hk.cn/",
             },
           ],
+        },
+        {
+          href: "https://github.com/JACK-ZHANG-coming/my-now-blog",
+          label: "本站源码",
+          position: "right",
         },
       ],
     },
@@ -66,48 +75,61 @@ module.exports = {
     footer: {
       style: "dark",
       links: [{
-          title: "学习",
-          items: [{
-              label: "w3school 在线教程",
-              to: "https://www.w3school.com.cn/index.html",
-            },
-            {
-              label: "JavaScript | MDN",
-              to: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random",
-            },
-            {
-              label: "前端学习路线",
-              to: "https://objtube.gitee.io/front-end-roadmap/#/",
-            },
-            {
-              label: "使用 State Hook – React",
-              to: "https://zh-hans.reactjs.org/docs/hooks-state.html#gatsby-focus-wrapper",
-            },
-          ],
+        title: "学习",
+        items: [{
+          label: "w3school 在线教程",
+          to: "https://www.w3school.com.cn/index.html",
         },
+          {
+            label: "JavaScript | MDN",
+            to: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random",
+          },
+          {
+            label: "前端学习路线",
+            to: "https://objtube.gitee.io/front-end-roadmap/#/",
+          },
+          {
+            label: "使用 State Hook – React",
+            to: "https://zh-hans.reactjs.org/docs/hooks-state.html#gatsby-focus-wrapper",
+          },
+        ],
+      },
         {
           title: "社交媒体",
           items: [{
-              label: "GitHub",
-              href: "https://github.com/qiamw",
-            },
+            label: "GitHub",
+            href: "https://github.com/JACK-ZHANG-coming",
+          },
             {
               label: "Bilibili 哔哩哔哩",
-              href: "https://space.bilibili.com/318627253",
+              href: "https://space.bilibili.com/299974236",
             },
           ],
         },
         {
           title: "友情链接",
-          items: [],
+          items: [{
+            label: "yuqing521のblog",
+            to: "https://yuqing521.github.io/",
+          },
+            {
+              label: "lookroot的个人空间",
+              to: "https://www.lookroot.cn/",
+            },
+            {
+              label: "峰华前端工程师",
+              to: "https://zxuqian.cn",
+            },
+          ],
         },
       ],
-      copyright: `<p>Copyright © ${new Date().getFullYear()} ***** </p>
-      <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备*****</a></p>
+      copyright: `<p>Copyright © ${new Date().getFullYear()} 111峰华 (张旭乾) Built with Docusaurus.</p>
+      <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备14007097号-3</a></p>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
       <img alt="Creative Commons License" style="border-width:0" src="/img/creative-commons-license-icon.png" /></a>
       <br />本站所有内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-Hans" 
-      style="color: hsl(210deg, 100%, 80%)">CC BY-NC 4.0 协议</a>`,
+      style="color: hsl(210deg, 100%, 80%)">CC BY-NC 4.0 协议</a>，转载须注明署名和出处，且不可用于商业用途。
+      若与其他同步平台协议冲突，以本网站为准。`,
     },
     prism: {
       theme: require("prism-react-renderer/themes/github"),
@@ -130,13 +152,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/qiamw/my-now-blog/blob/main",
+          editUrl: "https://github.com/JACK-ZHANG-coming/my-now-blog/blob/main",
           remarkPlugins: [math],
           rehypePlugins: [katex],
           showLastUpdateTime: true,
           // sidebar:{
           //   hideeble:{
-              
+
           //   }
           // }
         },
@@ -148,8 +170,8 @@ module.exports = {
           rehypePlugins: [katex],
           feedOptions: {
             type: "all",
-            title: "柠檬果肉",
-            copyright: `Copyright © ${new Date().getFullYear()}柠檬果肉<p><a href="http://beian.miit.gov.cn/">冀ICP备*****</a></p>`,
+            title: "峰华前端工程师1111",
+            copyright: `Copyright © ${new Date().getFullYear()} 2222峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
           },
         },
         theme: {
@@ -178,8 +200,8 @@ module.exports = {
         path: "./lifestyle",
         feedOptions: {
           type: "all",
-          title: "柠檬果肉",
-          copyright: `Copyright © ${new Date().getFullYear()} 柠檬果肉<p><a href="http://beian.miit.gov.cn/">冀ICP备*****</a></p>`,
+          title: "峰华前端工程师2222",
+          copyright: `Copyright © ${new Date().getFullYear()} 3333峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
         },
       },
     ],
@@ -194,10 +216,10 @@ module.exports = {
     // ],
   ],
   stylesheets: [{
-      rel: "preconnect",
-      href: "https://fonts.gstatic.com",
-      type: "text/css",
-    },
+    rel: "preconnect",
+    href: "https://fonts.gstatic.com",
+    type: "text/css",
+  },
     {
       href: "/katex/katex.min.css",
       type: "text/css",
