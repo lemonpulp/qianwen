@@ -108,7 +108,7 @@ module.exports = {
           items: [
             {
               label: "柠檬果肉搭建私人GitLab ",
-              to: "http://ningmengguorou.top:82/",
+              to: "http://ningmengguorou.top:82/NingMengGuoRou",
             },
             {
               label: "柠檬果肉",
