@@ -1,6 +1,6 @@
 # 个人博客
 
-本博客基于 [Docusaurus 2](https://v2.docusaurus.io/) JAMStack 静态网站生成器与[峰华前端工程师博客网站](https://zxuqian.cn/)实现，作为 Bilibili（潜心专研的小张同学） 视频的文本版载体呈现与个人前端知识总结归纳分析。本博客网站专注前端发展与技术分享，至死不渝！
+本博客基于 [Docusaurus 2](https://v2.docusaurus.io/) JAMStack 静态网站生成器与[柠檬果肉博客网站](https://zxuqian.cn/)实现，作为 Bilibili（柠檬果肉） 视频的文本版载体呈现与个人前端知识总结归纳分析。本博客网站专注前端发展与技术分享，至死不渝！
 
 本博客的代码如无特殊说明，可以自由使用，版权信息详见[关于版权](#关于版权)部分。接下来简单介绍一下本博客的开发和部署方式，关于 Docusaurus 的使用方法请参考官方网站 [Docusaurus 2](https://v2.docusaurus.io/)。
 
@@ -9,7 +9,7 @@
 首先克隆仓库代码：
 
 ```bash
-$ git clone https://github.com/JACK-ZHANG-coming/my-now-blog
+$ git clone https://github.com/qiamw/qianwen/my-now-blog
 
 ```
 

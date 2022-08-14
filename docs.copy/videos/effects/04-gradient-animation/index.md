@@ -56,4 +56,4 @@ background-size: 200% 200%;
 
 这样就实现了渐变背景色的动画效果了！
 
-是不是很简单？只需结合使用 background-position 和 background-size 就可以了。如果觉得视频有帮助请三连，想优雅的学前端，请关注峰华前端工程师，感谢观看！
+是不是很简单？只需结合使用 background-position 和 background-size 就可以了。如果觉得视频有帮助请三连，想优雅的学前端，请关注柠檬果肉，感谢观看！

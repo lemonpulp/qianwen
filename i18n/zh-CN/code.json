@@ -3,16 +3,16 @@
     "message": "Hello! 我是",
     "description": "hero greet"
   },
-  "潜心专研的小张同学": {
-    "message": "潜心专研的小张同学",
+  "柠檬果肉": {
+    "message": "柠檬果肉",
     "description": "my name"
   },
   "homepage.qqgroup1": {
-    "message": "QQ 1 群：706947563",
+    "message": "QQ 1 群： 1169117028",
     "description": "qq group1"
   },
   "homepage.follow.link.href": {
-    "message": "https://space.bilibili.com/299974236",
+    "message": "https://space.bilibili.com/318627253",
     "description": "social link bilibili or twitter"
   },
   "去B站关注": {
@@ -68,7 +68,7 @@
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "或者可能是个 Bug，可以在 Bilibili@潜心专研的小张同学、QQ 群里私信告知我~!",
+    "message": "或者可能是个 Bug，可以在 Bilibili@柠檬果肉、QQ 群里私信告知我~!",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {

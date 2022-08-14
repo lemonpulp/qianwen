@@ -115,7 +115,7 @@ function BlogListPage(props) {
             <animated.div style={animatedTexts[0]} className="hero_text">
               <Translate description="hero greet">Hello! 我是</Translate>
               <span className="intro__name">
-                <Translate description="my name">潜心专研的小张同学</Translate>
+                <Translate description="my name">柠檬果肉</Translate>
               </span>
             </animated.div>
             <animated.p style={animatedTexts[1]}>
@@ -179,7 +179,7 @@ function BlogListPage(props) {
             {currentLocale === "zh-CN" && (
               <animated.p style={animatedTexts[3]}>
                 <Translate id="homepage.qqgroup1" description="qq group1">
-                  QQ 1 群：706947563
+                  QQ 1 群： 1169117028
                 </Translate>
               </animated.p>
             )}
@@ -350,13 +350,13 @@ function SocialLinks({ animatedProps, ...props }) {
   // const { isDarkTheme } = useThemeContext();
   return (
     <animated.div className="social__links" style={animatedProps}>
-      <a href="https://space.bilibili.com/299974236">
+      <a href="https://space.bilibili.com/318627253">
         <BilibiliIcon />
       </a>
       {/* <a href="https://www.linkedin.com/in/zxuqian/">
         <FontAwesomeIcon icon={faLinkedin} size="lg" />
       </a> */}
-      <a href="https://github.com/JACK-ZHANG-coming">
+      <a href="https://github.com/qiamw/qianwen">
         <FontAwesomeIcon icon={faGithub} size="lg" />
       </a>
       <a href="https://blog.csdn.net/weixin_43207103?spm=1000.2115.3001.5343">

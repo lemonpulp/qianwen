@@ -33,4 +33,4 @@ import BVideo from "@site/src/components/BVideo";
 
 resize 属性支持 chrome、edge、safari 等主流浏览器，不支持 IE。
 
-好了，这个就是如何实现可调整尺寸的 UI 组件，你学会了吗？有帮助请三连，想优雅的学前端，请关注峰华前端工程师，感谢观看！
+好了，这个就是如何实现可调整尺寸的 UI 组件，你学会了吗？有帮助请三连，想优雅的学前端，请关注柠檬果肉，感谢观看！
