@@ -370,7 +370,7 @@ function SocialLinks({ animatedProps, ...props }) {
         <img
           width="50%"
           className="dropdown__menu"
-          src=''//{useBaseUrl("/img/publicQR.webp")}
+          src='https://files-cdn.cnblogs.com/files/blogs/493149/qq_pic_merged_1660465779514.bmp?t=1660465835'//{useBaseUrl("/img/publicQR.webp")}
         />
       </div>
     </animated.div>
